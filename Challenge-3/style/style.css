@@ -1,0 +1,157 @@
+body {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: #2d3436;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+button {
+  border: none;
+  background: none;
+  background-color: #74b9ff;
+  border-radius: 3px;
+  color: #fff;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background-color linear 0.1s;
+}
+
+button:hover {
+  background-color: #fff;
+  color: #74b9ff;
+  border: 1px solid #74b9ff;
+}
+
+button:focus {
+  outline: none;
+}
+
+.mr-right {
+  margin-right: 15px;
+}
+
+.pd {
+  padding: 10px;
+}
+
+.color-gray {
+  color: #636e72;
+}
+
+.color-blue {
+  color: #74b9ff;
+}
+
+.txt-sm {
+  font-size: 13px;
+}
+
+.txt-md {
+  font-size: 15px;
+}
+
+.txt-lg {
+  font-size: 20px;
+}
+
+.card {
+  border-radius: 3px;
+  margin: 5px;
+  box-shadow: 0.5px 0.5px 7px rgba(99, 110, 114, 0.5);
+}
+
+.profile-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.avatar {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+  border-radius: 15px;
+  background-color: #2d3436;
+}
+
+.username-wrapper {
+  display: inline-block;
+}
+
+.img {
+  max-width: 100%;
+}
+
+.option i {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.action-wrapper {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+
+.action-wrapper p {
+  display: inline-block;
+}
+
+.comments {
+  margin-top: 15px;
+  background-color: #dfe6e9;
+}
+
+.commenters {
+  display: flex;
+  flex-direction: row;
+}
+
+.write-comments {
+  display: flex;
+  flex-direction: row;
+}
+
+.write-comment-area {
+  border: none;
+  display: inline-block;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+}
+
+.write-comment-area:focus {
+  outline: none;
+}
+
+.commenters-wrapper {
+  width: 100%;
+}
+
+.reply-btn {
+  background-color: transparent;
+  color: #74b9ff;
+  padding-left: 0;
+  text-align: left;
+}
+
+.reply-btn:hover {
+  font-weight: bold;
+  background-color: transparent;
+  border: none;
+}

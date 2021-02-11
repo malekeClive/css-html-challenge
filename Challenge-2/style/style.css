@@ -1,0 +1,186 @@
+body {
+  font-family: sans-serif;
+  background-color: #f5f6fa;
+  color: #2d3436;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.txt-white {
+  color: #dfe6e9;
+}
+
+.txt-gray {
+  color: #636e72;
+}
+
+.txt-sm {
+  font-size: 13px;
+}
+
+.txt-md {
+  font-size: 15px;
+}
+
+.txt-lg {
+  font-size: 20px;
+}
+
+button {
+  cursor: pointer;
+  border: 1px solid transparent;
+  background: none;
+  background-color: #74b9ff;
+  border-radius: 3px;
+  padding: 5px 15px;
+  transition: background-color linear 0.05s;
+}
+
+button:hover {
+  border: 1px solid #74b9ff;
+  background-color: #fff;
+  color: #2d3436;
+}
+
+button:focus {
+  outline: none;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+}
+
+.top-section {
+  background-color: #273c75;
+  padding-bottom: 270px;
+}
+
+.top-wrapper {
+  position: relative;
+  top: 50px;
+  margin: 0 auto;
+  text-align: center;
+  width: 50%;
+}
+
+.title {
+  margin: 0 auto;
+}
+
+.faq {
+  text-align: center;
+  margin: 30px 0 10px 0;
+}
+
+.question-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.question-wrapper div {
+  margin: 10px;
+}
+
+.question-wrapper p {
+  width: 350px;
+}
+
+.cards {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  transform: translateY(-50%);
+}
+
+.card {
+  width: 250px;
+  margin: 5px;
+  transform: scale(1);
+  transition: transform linear 0.2s;
+}
+
+@media only screen and (max-width: 768px) {
+  .cards {
+    transform: translateY(0);
+  }
+
+  .card {
+    width: 250px;
+    margin-bottom: 65px;
+  }
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  background-color: #353b48;
+  padding: 10px 15px;
+}
+
+.discount {
+  font-size: 13px;
+}
+
+.body-card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 0.5px 0.5px 10px rgba(47, 54, 64, 0.3);
+}
+
+.top-card-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.price-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.price-value {
+  font-size: 70px;
+}
+
+.line {
+  width: 100%;
+  height: 2px;
+  margin-bottom: 20px;
+  background-color: rgba(47, 54, 64, 0.3);
+}
+
+.btn-wrapper {
+  text-align: center;
+}
+
+.dollars {
+  margin-top: 20px;
+}
